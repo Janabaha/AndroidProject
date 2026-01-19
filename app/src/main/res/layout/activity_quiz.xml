@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/littlered">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#8b0000"
+        android:textStyle="bold|italic"
+        android:id="@+id/text1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            app:buttonTint="@android:color/black"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            app:buttonTint="@android:color/black"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            app:buttonTint="@android:color/black"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:id="@+id/but1"
+        android:layout_below="@id/rg1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Check Answer"
+        android:textSize="20sp"
+        android:backgroundTint="#71903E"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:id="@+id/but2"
+        android:layout_below="@id/but1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Retry Question"
+        android:textSize="20sp"
+        android:backgroundTint="#71903E"
+        android:textColor="@color/white"
+        />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_media_next"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imgbut"/>
+
+</RelativeLayout>

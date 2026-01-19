@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="quiz">Little Red Riding Hood Quiz</string>
+    <string-array name="questions">
+        <item>Where was Little Red Riding Hood going?</item>
+        <item>Who did Little Red Riding Hood meet in the forest?</item>
+        <item>What was Little Red Riding Hood carrying in her basket?</item>
+    </string-array>
+    <string-array name="answers1">
+        <item>To school</item>
+        <item>To her grandmother</item>
+        <item>To the market</item>
+    </string-array>
+    <string-array name="answers2">
+        <item>The wolf</item>
+        <item>A hunter</item>
+        <item>A woodcutter</item>
+    </string-array>
+    <string-array name="answers3">
+        <item>Toys</item>
+        <item>Books</item>
+        <item>Food</item>
+    </string-array>
+</resources>

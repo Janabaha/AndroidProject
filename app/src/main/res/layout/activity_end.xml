@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/littlered">
+
+    <TextView
+        android:id="@+id/but11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Rate The Story!"
+        android:textColor="#617A37"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/unfillstar"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/but11"
+        android:id="@+id/imgbut11"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/unfillstar"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/but11"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imgbut13"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/unfillstar"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/but11"
+        android:id="@+id/imgbut12" />
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Go back to start"
+        android:layout_marginTop="65dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="#71903E"
+        android:layout_below="@id/imgbut11"
+        android:id="@+id/but14"
+        />
+
+
+</RelativeLayout>
